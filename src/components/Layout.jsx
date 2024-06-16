@@ -1,7 +1,7 @@
 
 
 // eslint-disable-next-line react/prop-types
-const Layout = ({children}) => {
+const Layout = () => {
     return(
         <div className="bg-[#E9E7EF] min-h-screen">
             <aside
