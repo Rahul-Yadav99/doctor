@@ -6,11 +6,13 @@ import {
     Route
 } from "react-router-dom";
 import Home from "./components/Home.jsx"
+
+
 const app = ()=>{
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/home" element={<Home/>}/>
+                <Route path="/" element={<Home />} />
             </Routes>
         </BrowserRouter>
     )

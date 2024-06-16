@@ -1,8 +1,12 @@
+import Layout from "./Layout";
+
 const Home = ()=>{
     return(
-        <div>
-            <h1>Home Page</h1>
-        </div>
+        <Layout>
+            <div>
+                <h1>Home Page</h1>
+            </div>
+        </Layout>
     )
 }
 export default Home
